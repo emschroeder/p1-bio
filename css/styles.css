@@ -1,0 +1,11 @@
+/* Your Website Styles */
+img {
+	padding-top: 10px;
+}
+
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
