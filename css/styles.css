@@ -1,11 +1,62 @@
 /* Your Website Styles */
+
 .container {
-	background:#e69c2e;
+	background:#8F8747;
 	max-width: 1000px;
 	position: relative;
 	border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px black;
 }
 
+h1 {
+  margin-bottom: 0;
+  font-family: 'Paprika', cursive;
+}
+
+h3, h4 {
+  margin-bottom: 0px;
+  font-family: 'Rambla', sans-serif;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p {
+  margin-top:0;
+  font-family: 'Ledger', serif;
+}
+
+
+
+
+.grid_5 {
+  background: #82345B;
+  padding: 0 10px 0 10px;
+  border-radius: 20px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.grid_6 {
+  background: #82345B;
+  padding: 0 10px 0 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.grid_3 {
+  background: #82345B;
+  padding: 0 10px 0 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+}
 
 
 
@@ -17,12 +68,13 @@ li {
   list-style: none;
   width: 200px;
   height: 50px;
-  margin: 10px 10px 10px 0;
   text-align: center;
+  margin: 10px 10px 10px 0;
 }
 
 a:link,
 a:visited {
+  font-family: 'Ledger', serif;
   border: 4px solid white;
   border-radius:30px;
   color: black;
@@ -40,10 +92,16 @@ a:hover {
 }
 
 
-img {
-	padding-top: 10px;
-  width:300px;
+.grid_4 img {
+	margin-top: 50px;
+  max-width:300px;
   height:300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+
+body {
+  background-attachment: fixed;
 }
 
 
