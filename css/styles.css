@@ -1,10 +1,10 @@
 /* Your Website Styles */
 
 .container {
-	background:#8F8747;
-	max-width: 1000px;
-	position: relative;
-	border-radius: 15px;
+  background:#8F8747;
+  max-width: 1000px;
+  position: relative;
+  border-radius: 15px;
   margin-top: 20px;
   box-shadow: 5px 5px 10px black;
 }
@@ -93,7 +93,7 @@ a:hover {
 
 
 .grid_4 img {
-	margin-top: 50px;
+  margin-top: 50px;
   max-width:300px;
   height:300px;
   border-radius: 20px;
@@ -108,5 +108,5 @@ body {
 
 /* Show Grid */
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+  background: url("../img/grid-bg.png") repeat-y;
 }
